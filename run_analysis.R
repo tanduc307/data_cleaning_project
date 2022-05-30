@@ -44,5 +44,5 @@ colnames(dataset_mean_std_activity) <- change_name_3
 
 tidy_data_set <- dataset_mean_std_activity %>% group_by(subject_code, activity) %>% summarise_all(mean)
 #write.csv(tidy_data_set, "tidy_data_set.csv")
-
+#write.csv(tidy_data_set, "tidy_data_set.txt")
 
